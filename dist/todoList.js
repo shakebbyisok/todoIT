@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.TodoList = void 0;
 class TodoList {
     constructor() {
         this.tasks = [];
@@ -44,4 +41,4 @@ class TodoList {
         });
     }
 }
-exports.TodoList = TodoList;
+export default TodoList;

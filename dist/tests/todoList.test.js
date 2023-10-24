@@ -1,10 +1,8 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const todoList_1 = require("../todoList");
+import TodoList from '../todoList';
 describe('TodoList', () => {
     let todoList;
     beforeEach(() => {
-        todoList = new todoList_1.TodoList();
+        todoList = new TodoList();
     });
     it('should add a task', () => {
         const task = {

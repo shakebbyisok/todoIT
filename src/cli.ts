@@ -1,6 +1,6 @@
 import yargs from 'yargs';
 import readline from 'readline';
-import { TodoList } from './todoList';
+import  TodoList  from './todoList';
 
 const todoList = new TodoList();
 

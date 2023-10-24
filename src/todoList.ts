@@ -5,7 +5,7 @@ export interface Task {
     completed: boolean;
   }
   
-  export class TodoList {
+  class TodoList {
     public tasks: Task[] = [];
     public currentId: number = 1;
     
@@ -55,4 +55,5 @@ export interface Task {
       });
     }
   }
+  export default TodoList
   

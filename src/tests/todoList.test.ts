@@ -1,4 +1,6 @@
-import { TodoList, Task } from '../todoList';
+import TodoList, { Task } from '../todoList';
+
+
 
 describe('TodoList', () => {
   let todoList: TodoList;

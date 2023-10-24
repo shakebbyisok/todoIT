@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoIT - Todo List</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* This is optional styling */
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+        button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>TodoITAcademy List</h1>
+        <input type="text" id="todoInput" placeholder="Enter a new task">
+        
+        <!-- 1. Added description input -->
+        <input type="text" id="descriptionInput" placeholder="Enter task description">
+        
+        <button id="addTodoButton">Add Todo</button>
+        <ul id="todoListUI"></ul>
+    </div>
+
+
+    <!-- Import compiled TodoList class -->
+    <script type="module" src="./dist/todoList.js"></script>
+
+    <!-- Import script to manipulate DOM -->
+    <script src="./script.js" type="module"></script>
+
+</body>
+</html>
