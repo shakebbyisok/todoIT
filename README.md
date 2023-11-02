@@ -12,19 +12,19 @@ Este proyecto es una aplicación de lista de tareas desarrollada en TypeScript q
 ## Instalación
 
 1. Clona este repositorio en tu máquina local:
-
+```
 git clone https://github.com/shakebbyisok/todoIT.git
-
+```
 
 2. Entra al directorio del proyecto:
-
+```
 cd ts-todolist
-
+```
 
 3. Instala las dependencias:
-
+```
 npm install
-
+```
 
 ## Uso
 
