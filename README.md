@@ -30,6 +30,8 @@ npm install
 
 Para iniciar la aplicación, ejecuta el siguiente comando:
 
+npm start
+
 A continuación, se mostrará un menú de opciones que te permitirá interactuar con la lista de tareas. Sigue las instrucciones en la consola para agregar, editar, eliminar y marcar tareas como completadas.
 
 ## Comandos Disponibles
