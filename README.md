@@ -18,7 +18,7 @@ git clone https://github.com/shakebbyisok/todoIT.git
 
 2. Entra al directorio del proyecto:
 ```
-cd todoIT-main
+cd todoIT
 ```
 
 3. Instala las dependencias:
