@@ -1,6 +1,6 @@
 import yargs from 'yargs';
 import readline from 'readline';
-import  TodoList  from './todoList';
+import  TodoList  from './todoList.js';
 
 const todoList = new TodoList();
 
@@ -88,8 +88,3 @@ async function startMenu() {
 // Start the menu.
 startMenu();
 
-// Define your yargs commands and options here.
-
-// ...
-
-yargs.parse();

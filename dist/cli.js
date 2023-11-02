@@ -7,9 +7,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import yargs from 'yargs';
 import readline from 'readline';
-import TodoList from './todoList';
+import TodoList from './todoList.js';
 const todoList = new TodoList();
 // Create a readline interface for user input.
 const rl = readline.createInterface({
@@ -89,6 +88,3 @@ function startMenu() {
 }
 // Start the menu.
 startMenu();
-// Define your yargs commands and options here.
-// ...
-yargs.parse();
