@@ -42,3 +42,5 @@ A continuación, se mostrará un menú de opciones que te permitirá interactuar
 - `4` - Listar tareas (pendientes y completadas).
 - `0` - Salir de la aplicación.
 
+- **Para ver la funcionalidad en el front-end**: Abrir el archivo `index.html` en un navegador. (Con live-server).
+
